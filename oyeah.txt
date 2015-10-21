@@ -1,0 +1,4 @@
+createCake.blade
+function printscreen() - para ma save daw sa db ky e iframe. jquery d ko kbaw. e save lng sa "image" sa table nga cakeModel
+
+createCake controller

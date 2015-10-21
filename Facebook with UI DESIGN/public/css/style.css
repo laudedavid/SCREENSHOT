@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px 0 10px 20px; 
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.box {
+    min-height: 100px;
+    height: auto;
+    width: 120;
+    padding: 10px;
+    border-width: 1px;
+    border-style: dotted;
+    position: absolute;
+    border-radius: 5px;
+
+}
+
+#choosebox {
+    border-color: gray;
+     margin-top: 2cm;
+    left: 50px;
+    top: 120px;
+
+}
+
+#layer1 {
+    
+
+      border-color: gray;
+    margin-top: 9cm;
+    left: 300px;
+    top: 150px;
+    width: 120px;
+    height: 120px;
+}
+
+#layer2 {
+    border-color: gray;
+    margin-top: 5.5cm;
+    left: 300px;
+    top: 175px;
+      width: 120px;
+      height: 120px;
+}
+
+#layer3 {
+     border-color: gray;
+    margin-top: 2cm;
+    left: 300px;
+    top: 195px;
+    width: 120px;
+    height: 120px;
+}
+div.box:active {
+    border-color:gray;
+    box-shadow: 10px 10px;
+   
+
+}
+div.box:hover {
+    border-color:red;
+    box-shadow: 10px 10px;
+   
+}
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+ul.dropdown-menu{
+    background-color: transparent;
+}
+.layer1fortopper{
+    top:600px;
+    left:210px;
+    width:300px;
+    height:100px;
+     position: absolute;
+      border-width: 1px;
+      border-style: dotted;
+     border-color:gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.layer2fortopper{
+    top:500px;
+    left:235px;
+    width:250px;
+    height:100px;
+     position: absolute;
+      border-width: 1px;
+      border-style: dotted;
+     border-color:gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.layer3fortopper{
+    top:400px;
+    left:260px;
+    width:200px;
+    height:100px;
+     position: absolute;
+      border-width: 1px;
+     border-style: dotted;
+     border-color:gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+
+
+
